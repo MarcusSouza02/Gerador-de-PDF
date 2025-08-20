@@ -9,8 +9,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Pessoa> lista = Arrays.asList(
-                new Pessoa("Arthur", 20),
-                new Pessoa("Marcus", 22)
+                new Pessoa("Arthur", 20, "Brasil"),
+                new Pessoa("Marcus", 22, "Palmeiras")
         );
 
         PDF pdfService = new PDF();
